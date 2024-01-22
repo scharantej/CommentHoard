@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Comment Collector Results</title>
+</head>
+<body>
+<h1>Facebook Comment Collector Results</h1>
+<ul>
+{% for comment in comments %}
+<li>{{ comment['message'] }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
+
